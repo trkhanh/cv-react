@@ -1,0 +1,87 @@
+.Header {
+  display: flex;
+}
+
+.Left {
+  width: 60%;
+  padding-right: 105px;
+  text-align: left;
+}
+
+.Left h4 {
+  margin: 0;
+}
+
+.Left .Name {
+  font-size: 70px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.Left .Content {
+  font-size: 14px;
+  text-align: justify;
+  padding-bottom: 80px;
+}
+
+.Right {
+  text-align: right;
+}
+
+.Right h4 {
+  margin: 0;
+}
+
+.Right .BorderBottom {
+  border-bottom: 3px solid black;
+}
+
+.Right .Location p:first-child {
+  font-size: 55px;
+}
+
+.Right .Location p:nth-child(2) {
+  font-size: 30px;
+}
+
+.Right .Location p:last-child {
+  font-size: 20px;
+}
+
+.Right .Street {
+  font-size: 12px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+
+.Right .PhoneNumber {
+  display: flex;
+}
+
+.Right .PhoneNumber .Icon {
+  width: 45px;
+  height: 65px;
+  padding-top: 10px;
+}
+
+.Right .PhoneNumber .Icon img {
+  width: 55px;
+  margin-right: 20px;
+}
+
+.Right .PhoneNumber .Number {
+  text-align: right;
+  font-size: 55px;
+  width: 140px;
+  font-weight: bold;
+}
+
+.CommonParagraph {
+  font-weight: bold;
+  margin: 0;
+}
+
+.TextAlignLeft {
+  text-align: left;
+}

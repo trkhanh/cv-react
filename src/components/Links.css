@@ -1,0 +1,30 @@
+.Links {
+  margin-bottom: 40px;
+}
+
+.Links .LinksSection {
+  border-bottom: 5px solid black;
+}
+
+.Links .LinksSection h4 {
+  margin: 0;
+  text-align: left;
+}
+
+.Link {
+  display: flex;
+  align-items: center;
+}
+
+.Link .Icon {
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 25px;
+}

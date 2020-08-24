@@ -1,0 +1,41 @@
+.WorkExperience {
+  margin-bottom: 40px;
+}
+
+.ExpSection {
+  border-bottom: 3px solid black;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.ExpSection h4 {
+  margin: 0;
+}
+
+.ExpSection h4:first-child {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.ExpContent {
+  display: flex;
+}
+
+.ExpContent .Col {
+  margin-right: 25px;
+}
+
+.ExpContent .Col-4 {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.ExpContent .Col * {
+  margin: 0;
+  text-align: left;
+  font-size: 12px;
+}
+
+.ExpContent .Col-4 * {
+  text-align: right;
+}

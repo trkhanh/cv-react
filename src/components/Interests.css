@@ -1,0 +1,28 @@
+.Interests {
+  margin-bottom: 40px;
+}
+
+.IntSection {
+  border-bottom: 3px solid black;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.IntSection h4 {
+  margin: 0;
+}
+
+.IntSection h4:first-child {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.IntContent {
+  display: flex;
+}
+
+.IntContent .Interest {
+  flex-grow: 1;
+  text-align: left;
+}
+

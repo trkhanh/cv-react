@@ -1,0 +1,36 @@
+.Education {
+  margin-bottom: 50px;
+}
+
+.EduSection {
+  border-bottom: 3px solid black;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.EduSection h4 {
+  margin: 0;
+}
+
+.EduSection h4:first-child {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.Content .Col-1 {
+  margin-right: 40px;
+}
+
+.Content .Col-3 {
+  flex-grow: 1;
+}
+
+.Content .Col-3 h6 {
+  text-align: right;
+}
+
+.Content .Col * {
+  margin: 0;
+  text-align: left;
+  font-size: 12px;
+}

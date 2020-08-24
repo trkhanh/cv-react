@@ -1,0 +1,36 @@
+.ComputerSkills {
+  height: 130px;
+}
+
+.CSkillSection {
+  border-bottom: 3px solid black;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Content {
+  width: 100%;
+}
+
+.Content .Item {
+  margin: 0 7px;
+}
+
+.Content .Item .Image {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Content .Item .Image img {
+  width: 27px;
+  height: 27px;
+}
+
+.Content .Item .Label {
+  font-size: 8px;
+}

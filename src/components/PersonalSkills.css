@@ -1,0 +1,38 @@
+.Skills {
+  margin-bottom: 80px;
+}
+
+.PSkillSection {
+  border-bottom: 3px solid black;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.PSkillSection h4 {
+  margin: 0;
+}
+
+.PSkillSection h4:first-child {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.Content {
+  display: flex;
+}
+
+.Content .PersonalSkills {
+  flex-grow: 1;
+}
+
+.Content .PersonalSkills p {
+  margin: 0;
+  text-align: left;
+  font-size: 13px;
+}
+
+.Content .AcademicSkills p {
+  margin: 0;
+  text-align: right;
+  font-size: 13px;
+}
